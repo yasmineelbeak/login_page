@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+
+<body>
+    <section>
+        <div class="container text-center">
+          <div class="login-form w-75 m-auto p-5 mt-5">
+              <h1>Smart Login System</h1>
+              <input id="inputEmail" type="email" placeholder="Enter your Email " id="signEmail" class="form-control my-3 text-white" required>
+              <input id="inputPassword" type="password" placeholder="Enter your password " id="signPass" class="form-control my-3" required>
+              <span id="incorrmassage" class="text-danger d-none py-2 text-center">incorrect email or password</span>
+              <button onclick="login(this)" id="logbtn" class="btn w-100 btnLogin">Login</button>
+             <!-- Full screen modal -->
+              <p class="text-white my-3">Don’t have an account? 
+              <a class="text-decoration-none text-white" href="./index2.html" target="_self">Sign Up</a>
+             </p>
+          </div>
+        </div>
+      </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

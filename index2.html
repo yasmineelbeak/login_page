@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+
+<body>
+    <section>
+        <div class="container ">
+          <div class="login-form w-75 m-auto p-5 mt-5">
+              <h1 class="text-center">Smart Login System</h1>
+              <input id="regName" oninput="validateRegAccount(this)" type="text" placeholder="Enter your Name "  class="form-control my-3 text-white">
+              <span id="reName" class="text-danger d-none py-1 ">Required</span>
+              <input id="regEmail" oninput="validateRegAccount(this)" type="email" placeholder="Enter your Email "  class="form-control my-3 text-white">
+              <span id="reEmail" class="text-danger d-none py-1 ">invalid Email</span>
+              <input id="regPassword" oninput="validateRegAccount(this)" type="password" placeholder="Enter your password "  class="form-control my-3">
+              <span id="rePass" class="text-danger d-none py-1 ">you should be strong and greater than 8 character</span>
+              <span id="resuccess" class="text-success d-none py-1 text-center">Success</span>
+              <button id="reLogin" onclick="register()" class="btn w-100 btnLogin">Sign Up</button>
+             <p class="text-white my-3">You have an account?
+              <a class="text-decoration-none text-white"href="./index.html" target="_self">Sign in</a>
+             </p>
+          </div>
+        </div>
+      </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

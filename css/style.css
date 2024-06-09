@@ -1,0 +1,49 @@
+h1{
+    color:#17a2b8
+}
+.btnLogin{
+    border: 1px solid #17a2b8;
+    color:#17a2b8
+}
+.login-form ,.group{
+background-color: #24353f;
+box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+input::placeholder {
+color: #ced4da !important; /* Change this to your desired color */
+opacity: 1; /* Optional: This makes sure the color is fully opaque */
+}
+.login-form input{
+border: 1px solid #ced4da;
+background-color:transparent;
+padding: .375rem .75rem;
+color: #fff
+
+}
+.navbar{background-color: #24353f;box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);color:#fff}
+.form-control:focus {
+background-color: #24353f;
+box-shadow: 0 0 0 0 transparent ;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show  {
+    color: #fff;
+
+}
+.navbar-brand {
+    color: #fff;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    color:#fff;
+}
+body{
+background-color: #24353f;
+}
+.btn{
+    transition: hover .1s;
+}
+.btn:hover {
+    color:#17a2b8 ;
+    background-color: transparent;
+    border-color:  #17a2b8
+}
